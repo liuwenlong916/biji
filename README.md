@@ -4,6 +4,9 @@
 3. 汉字输入完成请求：compositionstart 和 compositionend
 
 # element组件重构
+```javascript
+// 适合已有项目改造，新项目直接使用重命名的组件
 import Upload from '@/components/Upload.vue'
 ElementUI.OriginalUpload=ElementUI.Upload.name = 'ElOriginalUpload'
 Vue.component('ElUpload', Upload)
+```
