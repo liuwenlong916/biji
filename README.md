@@ -23,3 +23,4 @@ inserted(el, binding,vnode){
   console.log(vnode) // vue中的虚拟dom
 }
 ```
+虚拟dom中 context和this一样
