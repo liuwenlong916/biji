@@ -9,3 +9,6 @@ inserted(el, binding,vnode){
 }
 ```
 虚拟dom中 context和this一样
+
+# 动态img
+src传入动态值时需要使用require，
