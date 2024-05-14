@@ -13,7 +13,7 @@ Vue.component('ElUpload', Upload)
 嵌套在table内部时，会导致高度变小，icon未居中
 解决方案：行加高，或 size='mini'
 
-#el-popper
+# el-popper
 默认append-to-body，未包含在<div id='app'></div>内，所以 deep(>>>) 深度设置样式无效。
 ## 解决方法
 1. 设置append-to-body=false
