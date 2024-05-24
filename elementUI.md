@@ -21,3 +21,5 @@ Vue.component('ElUpload', Upload)
 解决方案：行加高，或 size='mini'
 
 
+# el-table
+选中项被删除，刷新列表后，需手动清空选中项 clearSelection()
