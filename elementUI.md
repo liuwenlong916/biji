@@ -12,7 +12,7 @@ Vue.component('ElUpload', Upload)
 # el-popper
 默认append-to-body，未包含在<div id='app'></div>内，所以 deep(>>>) 深度设置样式无效。
 
-el-option 父节点底层逻辑和popper一样
+el-select、el-date-picker 的选项底层逻辑和popper一样
 
 ## 解决方法
 1. 设置append-to-body=false
